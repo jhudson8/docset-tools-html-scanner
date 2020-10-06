@@ -1,0 +1,36 @@
+{
+  "name": "docset-tools-html-scanner",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhudson8/docset-tools-html-scanner.git"
+  },
+  "keywords": [
+    "docset-tools"
+  ],
+  "author": "Joe Hudson <joehud@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhudson8/docset-tools-html-scanner/issues"
+  },
+  "homepage": "https://github.com/jhudson8/docset-tools-html-scanner#readme",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.1",
+    "@types/node": "^14.0.27",
+    "@types/puppeteer-core": "^2.0.0",
+    "@types/showdown": "^1.9.3",
+    "docset-tools-creator": "^0.0.13",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "docset-tools-types": "0.0.15",
+    "fs-extra": "^9.0.1",
+    "puppeteer-core": "^5.3.1"
+  }
+}
